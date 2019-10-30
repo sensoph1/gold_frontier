@@ -4,34 +4,64 @@ import React from "react"
 
 const Header = ({ siteTitle }) => (
 
-  <nav class="navbar" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-      <a class="navbar-item" href="/">Gold Frontier
-      </a>
-    
+  <nav class="navbar" role="navigation" aria-label="main navigation" >
+  <div class="navbar-brand">
+    <a class="navbar-item is-size-3	" href="/">
+      Squid
+    </a>
 
-<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
     </a>
+  </div>
+
+  <div id="navbarBasicExample" class="navbar-menu">
     
-    <div id="navbarBasicExample" class="navbar-menu">
-    <div class="navbar-start">
-      <a class="navbar-item">
-        Home
-      </a>
 
-      <a class="navbar-item">
-        Documentation
-      </a>
-      </div>
-      </div>
+    <div class="navbar-end">
+          <a class="navbar-item" href="contact">Contact Us</a>
+          <hr class="navbar-divider" />
 
-
-
+          <a class="navbar-item" href="about">About Us </a>
+          <a class="navbar-item" href="products">Products</a>
+          <a class="navbar-item" href="shop">Shop</a>
     </div>
-  </nav>
+  </div>
+</nav>
+
+
+
+  // <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+  //   <div class="navbar-brand">
+  //   <div class="navbar-menu">
+  //     <a class="navbar-item" href="/">Squid
+  //     </a>
+    
+  //     <div class="navbar-end">
+
+  //       <a class="navbar-item" href="about/">
+  //         About Us
+  //       </a>
+
+  //       <a class="navbar-item" href="products">
+  //         Products
+  //       </a>
+
+  //       <a class="navbar-item" href="shop">
+  //         Shop
+  //       </a>
+  //       <a class="navbar-item" href="contact">
+  //         Contact Us
+  //       </a>
+  //     </div>
+  //   </div>
+
+
+
+  //   </div>
+  // </nav>
  
   // <header>
     
